@@ -1,4 +1,5 @@
 <div class="container">
+    
     <center>
         <table>
             <tr>
@@ -31,6 +32,7 @@
                                         <?= date('Y-m-d'); ?>
                                         <input type="hidden" name="tgl_pengembalian" id="tgl_pengembalian" value="<?= date('Y-m-d'); ?>">
                                     </td>
+                                    
                                     <td>
                                         <?php
                                         $tgl1 = new DateTime($p['tgl_kembali']);
